@@ -35,6 +35,18 @@ p{
     color: #e5e5e5;
 }
 
+.nav.navbar-nav.navbar-right li a:hover {
+    color: #ffffff;
+}
+
+#commission-dropdown{
+	padding:0px;
+}
+
+#commission-dropdown li a{
+	background-color: #2d2a32;
+}
+
 #order-now{
 	color: #a3d555;
 	font-weight: bold;
@@ -123,7 +135,11 @@ p{
 #profile-pic{
 	max-width: 100%;
 	height: auto;
-	clip-path: circle(200px at center);
+	clip-path: circle(175px at center);
+}
+
+#pfp-wrapper{
+	filter: drop-shadow(3px 3px 3px #a3d555);
 }
 
 .section-content{
