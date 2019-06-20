@@ -9,6 +9,7 @@
 		 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<title>NovaReeee</title>
+		<!--Bootstrap 3.4.0-->
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 
@@ -18,12 +19,19 @@
 		<!-- Latest compiled JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 		
+		<!--AOS Library-->
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="css/styles.css">
-		<script src="js/script"></script>
+		<script src="js/script.js"></script>
+		
 	</head>
 
 	<body>
+		<script>
+		  AOS.init();
+		</script>
 		<nav class="navbar navbar-inverse">
 			<div class="container-fluid">
 				<div class="navbar-header">
@@ -124,14 +132,14 @@
 				<div class="col col-md-6 col-xs-12 col-sm-12 col-lg-6">
 					<div class="section-header">
 						<a name="About-Me">About Me</a>
-						<div id="pfp-wrapper">
+						<div id="pfp-wrapper" data-aos="flip-right">
 							<img src="img/profilepic.png" id="profile-pic">
 						</div>
 					</div>
 				</div>
 				<div class="col col-md-6 col-xs-12 col-sm-12 col-lg-6">
 					<div class="section-content" id="self-introduction">
-						<p class="text-left">
+						<p class="text-left" data-aos="fade-up" data-aos-easing="ease-out-back">
 							SELF INTRODUCTION GOES HERE |
 							SAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXT
 						</p>
@@ -139,20 +147,21 @@
 				</div>
 			</div>
 		</div>
+		<a name="Getting-Started"></a>
 		<div class="jumbotron jumbotron-fluid" id="decorative">
 		  <div class="container">
-			<h1 class="display-4"><a name="Getting-Started">Getting Started</a></h1>
-			<p class="lead">Guide of the workflow from start to finish.</p>
+			<h1 class="display-4" data-aos="fade-zoom-in">Getting Started</h1>
+			<p class="lead" data-aos="fade-zoom-in">Guide of the workflow from start to finish.</p>
 		  </div>
 			<!-- order-procedure -->
 			<div class="container-fluid" id="order-procedure">
 				<div class="row">
-					<h2>PROCESS</h2><br/>
+					<h2 data-aos="fade-zoom-in">PROCESS</h2><br/>
 				</div>
 				<!--Process-->
 				<div class="row">
 					<div class="col col-md-3 col-xs-12 col-sm-12 col-lg-3">
-						<div id="step1">
+						<div id="step1" data-aos="fade-up">
 							<span class="glyphicon glyphicon-send"></span>
 							<div class="step-details">
 								<b>Step 1. Place Request</b><br/>
@@ -162,7 +171,7 @@
 						</div>
 					</div>
 					<div class="col col-md-3 col-xs-12 col-sm-12 col-lg-3">
-						<div id="step2">
+						<div id="step2" data-aos="fade-down">
 							<span class="glyphicon glyphicon-pencil"></span>
 							<div class="step-details">
 								<b>Step 2. Initial Sketch</b><br/>
@@ -171,7 +180,7 @@
 						</div>
 					</div>
 					<div class="col col-md-3 col-sm-12 col-lg-3">
-						<div id="step3">
+						<div id="step3" data-aos="fade-up">
 							<span class="glyphicon glyphicon-wrench"></span>
 							<div class="step-details">
 								<b>Step 3. Modifications</b><br/>
@@ -181,7 +190,7 @@
 						</div>
 					</div>
 					<div class="col col-md-3 col-xs-12 col-sm-12 col-lg-3">
-						 <div id="step4">
+						 <div id="step4" data-aos="fade-down">
 							<span class="glyphicon glyphicon-check"></span>
 							<div class="step-details">
 								<b>Step 4. Final Piece</b><br/>
