@@ -52,6 +52,10 @@ p{
 	font-weight: bold;
 }
 
+#order-now:hover{
+	color: yellow;
+}
+
 #artist-name{
 	color: yellow;
 }
@@ -74,10 +78,6 @@ p{
 	margin-top: 10px;
 }
 
-.carousel .carousel-inner {
-	background-color: transparent;
-}
-
 .carousel .item {
     width: 100%; 
 	height: 700px;
@@ -93,9 +93,10 @@ p{
 }
 
 .carousel-inner img {
-	margin: 0 auto;
+	margin: auto;
 	width: 100%;
 	z-index: -1;
+	display:inline-block;
 }
 
 #slider-section{
@@ -121,7 +122,7 @@ p{
 }
 
 /*About Me*/
-#about-me, #about-me a{
+#about-me{
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	width: 100%;
 	color: #363636;
@@ -130,6 +131,8 @@ p{
 .section-header{
 	font-size: 20px;
 	padding: 30px 45px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
 }
 
 #profile-pic{
@@ -145,6 +148,7 @@ p{
 .section-content{
 	padding: 30px 45px;
 	word-wrap: break-word;
+	max-height: 150%;
 }
 
 /*Decorative*/
