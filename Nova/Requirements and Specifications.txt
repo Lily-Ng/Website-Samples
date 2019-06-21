@@ -1,0 +1,37 @@
+Brand
+- professional
+- Illustration/Game Design
+- just for fun vibe
+- merchandising
+* live event section in the future
+
+Tagline
+- none
+
+Web Domain
+()
+
+Web Hosting Service
+000webhost
+
+Technology
+- HTML5
+- PHP
+- mySQL
+- Bootstrap
+
+Color Palatte
+- color palatte 4
+
+Objective
+To create an art portfolio site that represents Nova's brand.
+
+Requirements
+- Form and database storage
+- For FAQ/Contact
+- mobile-friendly
+- *live event section map API integration*
+- link separation/photo upload
+- Twitter (https://twitter.com/NovaReeee) and Discord link: Nova#8293
+
+Mock-up: 1-2 weeks
